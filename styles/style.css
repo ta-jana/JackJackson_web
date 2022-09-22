@@ -1,0 +1,103 @@
+:root {
+  --nav-color: #1f454e;
+  --bg-color: #333333;
+  --text-color: white;
+  --secondary-color: #3597a8;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 70%;
+  color: var(--text-color);
+}
+
+section {
+  padding-top: 50px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-hero {
+  flex: 2;
+  padding: 1.5rem;
+}
+
+.hero-img {
+  background: url(/imgs/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 17rem;
+  width: 14rem;
+  display: block;
+  flex: 1;
+  min-width: 100px;
+}
+
+.hero-title {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 3vw;
+}
+
+.hero-text {
+  padding: 2rem 0rem;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 0.3rem 4rem;
+  margin: 0.3rem;
+  border-radius: 0.2rem;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  text-align: center;
+  transition: all 0.2s;
+  color: var(--text-color);
+  text-transform: uppercase;
+}
+
+.hero-button:hover {
+  background-color: var(--nav-color);
+}
+
+#project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-title {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  padding: 0 1.5rem 0;
+}
+
+.footer p {
+  text-align: center;
+  width: 100%;
+  padding: 5rem;
+}
+
+@media screen and (max-width: 701px) {
+
+  .hero-title {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 1.8rem;
+  }
+}
