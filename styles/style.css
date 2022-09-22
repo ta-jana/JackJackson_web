@@ -36,7 +36,7 @@ section {
 }
 
 .hero-img {
-  background: url(/imgs/hero.jpg);
+  background: url(../imgs/hero.jpg);
   background-size: cover;
   background-position: center;
   height: 17rem;
@@ -94,7 +94,6 @@ section {
 }
 
 @media screen and (max-width: 701px) {
-
   .hero-title {
     text-transform: uppercase;
     letter-spacing: 0.1em;

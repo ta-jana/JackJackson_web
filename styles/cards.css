@@ -10,12 +10,12 @@
 
 .card-1 .card-img,
 .card-1 .card-img--hover {
-  background-image: url(/imgs/card1.jpg);
+  background-image: url(../imgs/card1.jpg);
 }
 
 .card-2 .card-img,
 .card-2 .card-img--hover {
-  background-image: url(/imgs/card2.jpg);
+  background-image: url(../imgs/card2.jpg);
 }
 
 .card {
